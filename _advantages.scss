@@ -1,0 +1,34 @@
+.advantages{
+    height: 496px;
+    background-color:#F7F7F7;
+    padding-bottom: 80px;
+    padding-top: 25px;
+&__h2{
+    margin-top: 80px;
+
+}
+    &__descr{
+     margin-top: 25px;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    &__p{
+        width: 160px;
+        margin-top: 34px;
+    }
+    &__block{
+        text-align: center;
+    }
+    &__img{
+        margin-top: 57px;
+    }
+    .img__block{
+        width: 160px;
+        height: 160px;
+        background-color:white;;
+        border-radius:50%;
+      
+
+    }
+}
