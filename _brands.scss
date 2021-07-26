@@ -1,0 +1,36 @@
+.brands {
+    height: 172px;
+    display: flex;
+    justify-content: space-between;
+
+    &__box {
+        position: relative;
+        margin-top: 60px;
+       
+        width: 1016px;
+      
+        overflow: hidden;
+    }
+
+    &__slider {
+
+
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        overflow: hidden;
+        //   background-color:red;
+        position: absolute;
+    }
+
+    &__img {
+        // margin-left: 33px;
+        width: 94px;
+        height: 60px;
+
+    }
+
+    &__fa {
+        // margin-top: 80px;
+    }
+}
