@@ -6,21 +6,22 @@
     &__box {
         position: relative;
         margin-top: 60px;
-       
+
         width: 1016px;
-      
+
         overflow: hidden;
     }
 
     &__slider {
 
-
+        left: 0px;
         display: flex;
         justify-content: space-between;
         // align-items: center;
         overflow: hidden;
         //   background-color:red;
         position: absolute;
+        transition: 1s;
     }
 
     &__img {
@@ -31,6 +32,43 @@
     }
 
     &__fa {
-        // margin-top: 80px;
+        margin-top: 80px;
     }
 }
+@media(min-width:1024px)and(max-width:1200px){
+    .brands{
+        padding-left: 5%;
+        padding-right: 5%;
+        &__box{
+          width: 850px;
+    }
+    }
+}
+@media(min-width:768px)and(max-width:1023px){
+    .brands{
+        padding-left: 5%;
+        padding-right: 5%;
+        &__box{
+            width: 565px;
+    }
+    }
+}
+@media(min-width:375px)and(max-width:767px){
+    .brands{
+        padding-left: 5%;
+        padding-right: 5%;
+        &__box{
+            width: 285px;
+    }
+    }
+}
+@media(min-width:320px)and(max-width:374px){
+    .brands{
+        padding-left: 5%;
+        padding-right: 5%;
+        &__box{
+            width: 185px;
+    }
+    }
+}
+

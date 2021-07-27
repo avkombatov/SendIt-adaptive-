@@ -12,14 +12,28 @@ for (item of doubtsTop) {
         }
     })
 }
+
 // СЛАЙДЕР brands
 
-document.querySelector('.slider-prev').onclick = sliderLeft;
+let leftShift = document.querySelector('.slider-prev');
+let rightShift = document.querySelector('.slider-next');
 let left = 0;
+let right = 0;
 
-function sliderLeft() {
+leftShift.addEventListener('click', function () {
     let brandSlider = document.querySelector('.brands__slider');
     left = left - 94;
+    if (left < -564) {
+        left = 0;
+    }
     brandSlider.style.left = left + 'px';
+})
 
-}
+rightShift.addEventListener('click', function () {
+    let brandSlider = document.querySelector('.brands__slider');
+    left = left + 94;
+    if (left > 0) {
+        left = 0;
+    }
+    brandSlider.style.left = left + 'px';
+})
