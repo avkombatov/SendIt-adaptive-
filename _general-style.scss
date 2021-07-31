@@ -36,11 +36,13 @@ ul li {
     border: none;
     cursor: pointer;
     background: #008DCD;
-    color:white;
+    color: white;
+
     &:hover {
         background-color: #00A9FF;
         transition: 0.3s;
     }
+
     &:active {
         background-color: #94D1EC;
     }
@@ -50,10 +52,38 @@ ul li {
 .mobile__menu {
     display: none;
 }
-.h2{
+
+.h2 {
     font-size: 36px;
-line-height: 43px;
+    line-height: 43px;
 }
-.fas{
+
+.fas {
     cursor: pointer;
 }
+
+.nav {
+    &__li {
+        font-size: 18px;
+        line-height: 22px;
+       &:not(:last-child){
+        margin-right: 60px;
+       }
+
+        & a {
+            color: black;
+
+            &:hover {
+                color: #FF4700;
+                transition: 0.2s;
+            }
+
+        }
+
+    }
+    & ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+

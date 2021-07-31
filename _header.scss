@@ -4,19 +4,13 @@
     background-size: cover;
     height: 525px;
 
-    &__li {
-        font-size: 18px;
-        line-height: 22px;
+    .nav__li_header a {
         color: white;
-        margin-right: 60px;
-
 
         &:hover {
             color: #FFC6C4;
         }
     }
-
-
 
     &__top {
         display: flex;
@@ -59,23 +53,19 @@
 
 
     .header {
+        padding-left: 5%;
+        padding-right: 5%;
         background-position-x: -160px;
 
-        &__li {
-            font-size: 16px;
-            line-height: 31px;
-            margin-right: 32px;
-        }
+
+    }
+
+    .nav__li:not(:last-child) {
+        font-size: 16px;
+        line-height: 31px;
+        margin-right: 32px;
     }
 }
-
-@media(max-width:1200px) {
-    .center {
-        padding-left: calc(50% - 475px);
-        padding-right: calc(50% - 475px);
-    }
-}
-
 @media(min-width:1024px)and(max-width:1099px) {
 
     .header {
@@ -85,9 +75,12 @@
 
         background-position-x: -290px;
 
-        &__li {
+        .nav__li {
             font-size: 16px;
             line-height: 41px;
+        }
+
+        .nav__li:not(:last-child) {
             margin-right: 34px;
         }
     }
@@ -102,9 +95,12 @@
     .header {
         background-position-x: -350px;
 
-        &__li {
+               .nav__li {
             font-size: 15px;
             line-height: 46px;
+        }
+
+        .nav__li:not(:last-child) {
             margin-right: 25px;
         }
 
@@ -133,12 +129,16 @@
             width: 100px;
             margin-right: 40px;
         }
-
-        &__li {
+        .nav__li {
             font-size: 14px;
             line-height: 17px;
+        }
+
+        .nav__li:not(:last-child) {
             margin-right: 28px;
         }
+
+        
 
         &__h1 {
             width: 400px;
@@ -167,7 +167,7 @@
         padding-left: 5%;
         padding-right: 5%;
 
-        &__nav ul {
+        .nav ul {
             display: none;
         }
 
@@ -215,7 +215,7 @@
         padding-left: 5%;
         padding-right: 5%;
 
-        &__nav ul {
+        .nav ul {
             display: none;
         }
 
@@ -263,7 +263,7 @@
         padding-left: 5%;
         padding-right: 5%;
 
-        &__nav ul {
+        .nav ul {
             display: none;
         }
 
@@ -318,7 +318,7 @@
         padding-left: 5%;
         padding-right: 5%;
 
-        &__nav ul {
+        .nav ul {
             display: none;
         }
 

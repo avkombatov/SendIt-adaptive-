@@ -1,5 +1,5 @@
 .footer {
-    height: 266px;
+    height: 286px;
     background: #E9E9E9;
 
     &__top {
@@ -36,4 +36,27 @@
     &__hr{
         background: #C4C4C4;
     }
+    &__middle{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        margin-top: 19px;
+        margin-bottom: 26px;
+    }
+    &__nav{
+        margin-top: 36px;
+    }
+    &__bottom{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+padding-bottom: 20px;
+    }
+    &__date{
+        margin-left: 68px;
+    }
+   &__a{
+       margin-right: 30px;
+   }
 }
