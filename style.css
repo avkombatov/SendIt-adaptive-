@@ -1655,7 +1655,7 @@ ul li {
 }
 
 .footer {
-  height: 286px;
+  height: 305px;
   background: #E9E9E9;
 }
 
@@ -1681,7 +1681,7 @@ ul li {
   display: flex;
 }
 
-.footer__input {
+.footer__phone {
   width: 362px;
   height: 50px;
   border: 1px solid #363636;
@@ -1696,7 +1696,7 @@ ul li {
   margin-right: 30px;
 }
 
-.footer__input:focus {
+.footer__phone:focus {
   outline: none;
 }
 
@@ -1739,5 +1739,319 @@ ul li {
 
 .footer__a {
   margin-right: 30px;
+}
+
+.footer__approval {
+  font-size: 10px;
+  line-height: 12px;
+  color: #9E9E9E;
+  margin-top: 9px;
+}
+
+.footer__checkbox {
+  margin-right: 6px;
+  height: 10px;
+  width: 10px;
+}
+
+.footer__copy {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer__h2 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .footer__phone {
+    width: 350px;
+  }
+  .footer__button {
+    width: 350px;
+  }
+  .footer__li:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer__h2 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .footer__phone {
+    width: 310px;
+  }
+  .footer__button {
+    width: 310px;
+  }
+  .footer__li {
+    font-size: 17px;
+  }
+  .footer__li:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer__h2 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .footer__phone {
+    width: 270px;
+  }
+  .footer__button {
+    width: 270px;
+  }
+  .footer__li {
+    font-size: 15px;
+  }
+  .footer__li:not(:last-child) {
+    margin-right: 18px;
+  }
+  .footer__date {
+    margin-left: 50px;
+  }
+  .footer__a {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .footer {
+    height: 390px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer__top {
+    padding-top: 20px;
+  }
+  .footer__h2 {
+    margin-top: 12px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .footer__phone {
+    width: 350px;
+  }
+  .footer__button {
+    width: 350px;
+    margin-top: 10px;
+  }
+  .footer__li {
+    font-size: 15px;
+  }
+  .footer__li:not(:last-child) {
+    margin-right: 18px;
+  }
+  .footer__date {
+    margin-left: 30px;
+  }
+  .footer__a {
+    margin-right: 15px;
+  }
+  .footer__nav ul {
+    display: none;
+  }
+  .footer__social {
+    display: none;
+  }
+  .footer__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__form {
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__approval {
+    margin-left: 15px;
+  }
+  .footer__copy, .footer__design {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .footer {
+    height: 370px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer__top {
+    padding-top: 20px;
+  }
+  .footer__h2 {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer__phone {
+    width: 290px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer__button {
+    width: 290px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .footer__li {
+    font-size: 15px;
+  }
+  .footer__li:not(:last-child) {
+    margin-right: 18px;
+  }
+  .footer__date {
+    margin-left: 30px;
+  }
+  .footer__a {
+    margin-right: 15px;
+  }
+  .footer__nav ul {
+    display: none;
+  }
+  .footer__social {
+    display: none;
+  }
+  .footer__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__form {
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__approval {
+    margin-left: 15px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .footer__copy, .footer__design {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .footer__logo {
+    height: 57px;
+    width: 140px;
+  }
+  .footer__menu {
+    height: 33px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .footer {
+    height: 355px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer__top {
+    padding-top: 20px;
+  }
+  .footer__h2 {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer__phone {
+    width: 270px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer__button {
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .footer__li {
+    font-size: 15px;
+  }
+  .footer__li:not(:last-child) {
+    margin-right: 18px;
+  }
+  .footer__date {
+    margin-left: 15px;
+  }
+  .footer__a {
+    margin-right: 15px;
+  }
+  .footer__nav ul {
+    display: none;
+  }
+  .footer__social {
+    display: none;
+  }
+  .footer__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__form {
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__approval {
+    margin-left: 15px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .footer__copy, .footer__design {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  .footer__logo {
+    height: 45px;
+    width: 120px;
+  }
+  .footer__menu {
+    height: 27px;
+    width: 34px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
