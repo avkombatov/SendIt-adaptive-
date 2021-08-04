@@ -1,3 +1,5 @@
+//Выпадающая информация doubts
+
 let doubtsTop = document.querySelectorAll('.doubts__main');
 
 for (item of doubtsTop) {
@@ -18,7 +20,7 @@ for (item of doubtsTop) {
 let leftShift = document.querySelector('.slider-prev');
 let rightShift = document.querySelector('.slider-next');
 let left = 0;
-let right = 0;
+// let right = 0;
 
 leftShift.addEventListener('click', function () {
     let brandSlider = document.querySelector('.brands__slider');
@@ -37,3 +39,19 @@ rightShift.addEventListener('click', function () {
     }
     brandSlider.style.left = left + 'px';
 })
+
+//выпадающее меню на маленьком экране
+let headerMenu = document.querySelector('.header__menu');
+let mobileImg = document.querySelector('.mobile__img');
+let menuClose = document.querySelector('.menu__close');
+
+mobileImg.addEventListener('click', function () {
+    headerMenu.style.display = "block";
+});
+
+menuClose.addEventListener('click', function () {
+    headerMenu.style.display = "none";
+});
+
+
+
