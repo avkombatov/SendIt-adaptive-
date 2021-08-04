@@ -1689,7 +1689,7 @@ ul li {
 }
 
 .brands__slider {
-  left: 0px;
+  right: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
